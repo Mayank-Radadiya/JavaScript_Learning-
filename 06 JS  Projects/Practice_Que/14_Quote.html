@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Quote Generator</h1>
+    <ul></ul>
+
+    <script>
+      let random_quotes = [
+        "Be yourself; everyone else is already taken.",
+        "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+        "You miss 100% of the shots you don't take.",
+        "The only way to do great work is to love what you do.",
+        "In three words I can sum up everything I've learned about life: it goes on.",
+        "To be or not to be, that is the question.",
+        "I think, therefore I am.",
+        "The journey of a thousand miles begins with one step.",
+        "Life is what happens to you while you're busy making other plans.",
+        "Stay hungry, stay foolish.",
+      ];
+
+      let ulTag = document.querySelector("ul");
+
+      setInterval(() => {
+        let randomIndex = Math.floor(Math.random() * random_quotes.length);
+        let randomQuote = random_quotes[randomIndex];
+        ulTag.innerHTML = `<li>${randomQuote}</li>`;
+      }, 2000);
+    </script>
+  </body>
+</html>

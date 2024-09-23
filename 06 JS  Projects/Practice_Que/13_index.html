@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button>Start</button>
+    <h1>60</h1>
+    <script>
+      let startBtn = document.querySelector("button");
+      let time = document.querySelector("h1");
+      newTime = time.innerText;
+      startBtn.addEventListener("click", function () {
+        setInterval(() => {
+          if (newTime === 0) {
+            time.innerHTML = 0;
+            clearInterval()
+            alert("Time Is Over");
+          } else {
+            newTime--;
+            time.innerHTML = newTime;
+          }
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>

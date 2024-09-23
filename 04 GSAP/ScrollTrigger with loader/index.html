@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll-Trigger</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+<body>
+    <main data-scroll >
+        <div id="loader" data-scroll>
+            <h1>0%</h1>
+        </div>
+        <div id="page1" data-scroll>
+            <h1>Scroll-Trigger</h1>
+            <p>with</p>
+            <h2>Locomotive JS</h2>
+        </div>
+        <div id="page2" data-scroll>
+            <div id="img1" data-scroll data-scroll-speed="2">
+                <img  src="https://images.unsplash.com/photo-1712401684062-f81ab9bb13de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDd8TThqVmJMYlRSd3N8fGVufDB8fHx8fA%3D%3D" alt="">
+
+            </div>
+            <div id="img2"data-scroll data-scroll-speed="2">
+                <img  src="https://images.unsplash.com/photo-1711094320972-2cf61c579550?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE2MHxNOGpWYkxiVFJ3c3x8ZW58MHx8fHx8" alt="">
+
+            </div>
+            <div  id="img3"data-scroll data-scroll-speed="2">
+                <img   src="https://images.unsplash.com/photo-1711014921128-89b4adf6aa5f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE5M3xNOGpWYkxiVFJ3c3x8ZW58MHx8fHx8" alt="">
+
+            </div>
+        </div>
+        <div id="page3" data-scroll>
+                <div id="box">
+                    <p>
+                        GSAP !
+                    </p>
+                </div>
+        </div>
+
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>

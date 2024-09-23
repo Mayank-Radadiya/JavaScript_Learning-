@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+head,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#text{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+}
+h1 {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 170px;
+  
+}
+#cursor{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    mix-blend-mode: difference;
+    background-color: aliceblue;
+}

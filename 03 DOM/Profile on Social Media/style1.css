@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+head,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgba(116, 144, 226, 0.815);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#cart {
+  height: 650px;
+  width: 550px;
+  background-color: rgba(234, 156, 182, 0.644);
+  /* display: flex; */
+  margin-top: 5%;
+  border-radius: 10px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+#cart img {
+  height: 85%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+#p1 {
+  font-size: 30px;
+  background-color: rgba(239, 198, 144, 0.523);
+  padding: 2px;
+  font-weight: 500;
+  padding-left: 30%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#but {
+  display: flex;
+}
+#but1 {
+  height: 33px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: rgb(117, 150, 249);
+  color: black;
+  border: 1px solid white;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+#p2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 0, 0, 0.811);
+  font-weight: 700;
+  margin-left: 70px;
+  width: 100px;
+  margin-top: 6px;
+  /* background-color: aqua; */
+}
+
+#but2 {
+  height: 33px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: rgb(117, 150, 249);
+  color: black;
+  border: 1px solid white;
+  padding: 2px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 108px;
+}
+#love1 {
+  font-size: 100px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  color: white;
+  transform: translate(-60%, -50%) scale(0);
+  opacity: 0.7;
+  transition: all ease 0.5s;
+  box-shadow: 2px;
+}
+#love2 {
+  font-size: 30px;
+  position: absolute;
+  color: white;
+}
